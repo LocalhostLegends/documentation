@@ -12,10 +12,10 @@ const config: Config = {
   },
 
   url: 'https://localhostlegends.github.io',
-  baseUrl: '/hr-platform-docs/',
+  baseUrl: '/documentation/',
 
   organizationName: 'LocalhostLegends',
-  projectName: 'hr-platform-docs',
+  projectName: 'documentation',
 
   onBrokenLinks: 'warn',
   markdown: {
@@ -38,7 +38,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/LocalhostLegends/hr-platform-docs/edit/main/',
+          editUrl: 'https://github.com/LocalhostLegends/documentation/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -46,7 +46,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/LocalhostLegends/hr-platform-docs/edit/main/',
+          editUrl: 'https://github.com/LocalhostLegends/documentation/edit/main/',
           blogTitle: 'HR Platform Blog',
           blogDescription: 'News, updates, and insights about HR Platform',
           blogSidebarTitle: 'Latest posts',
