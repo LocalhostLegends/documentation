@@ -1,0 +1,24 @@
+{
+  "id": "architecture/database",
+  "title": "Database Schema",
+  "description": "Users Table",
+  "source": "@site/docs/architecture/database.md",
+  "sourceDirName": "architecture",
+  "slug": "/architecture/database",
+  "permalink": "/hr-platform-docs/docs/architecture/database",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/LocalhostLegends/hr-platform-docs/edit/main/docs/architecture/database.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Architecture Overview",
+    "permalink": "/hr-platform-docs/docs/architecture/overview"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/hr-platform-docs/docs/guides/deployment"
+  }
+}

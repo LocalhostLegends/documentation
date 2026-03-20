@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_docs=globalThis.webpackChunktemp_docs||[]).push([[85],{9236(t){t.exports=JSON.parse('{"metadata":{"permalink":"/documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"News, updates, and insights about HR Platform","blogTitle":"HR Platform Blog"}}')}}]);

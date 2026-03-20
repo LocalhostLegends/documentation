@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://localhostlegends.github.io/documentation/blog</id>
+    <title>HR Platform Blog</title>
+    <updated>2026-03-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://localhostlegends.github.io/documentation/blog"/>
+    <subtitle>HR Platform Blog</subtitle>
+    <icon>https://localhostlegends.github.io/documentation/data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Ctext y=".9em" font-size="90"%3E🤝%3C/text%3E%3C/svg%3E</icon>
+    <entry>
+        <title type="html"><![CDATA[HR Platform: Project Launch]]></title>
+        <id>https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch</id>
+        <link href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're thrilled to announce the official launch of the HR Platform development project! 🎉]]></summary>
+        <content type="html"><![CDATA[<p>We're thrilled to announce the official launch of the <strong>HR Platform</strong> development project! 🎉</p>
+<p>Today marks the beginning of our journey to build a modern HR Tech solution for workforce management.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-hr-platform">What is HR Platform?<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#what-is-hr-platform" class="hash-link" aria-label="Direct link to What is HR Platform?" title="Direct link to What is HR Platform?" translate="no">​</a></h2>
+<p>HR Platform is a comprehensive web portal designed to automate and streamline HR processes for medium and large companies. Our goal is to create a solution that bridges the gap between HR departments and employees, making workforce management efficient and transparent.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="project-scope">Project Scope<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#project-scope" class="hash-link" aria-label="Direct link to Project Scope" title="Direct link to Project Scope" translate="no">​</a></h2>
+<p>The platform will include:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-modules">Core Modules<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#core-modules" class="hash-link" aria-label="Direct link to Core Modules" title="Direct link to Core Modules" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>👥 Employee Management</strong> - Complete employee lifecycle management</li>
+<li class=""><strong>📝 Recruitment</strong> - Streamlined hiring process</li>
+<li class=""><strong>📊 Analytics</strong> - Real-time dashboards and reports</li>
+<li class=""><strong>🔐 Authentication</strong> - Secure role-based access control</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="technical-stack">Technical Stack<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#technical-stack" class="hash-link" aria-label="Direct link to Technical Stack" title="Direct link to Technical Stack" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Backend</strong>: NestJS with TypeScript</li>
+<li class=""><strong>Database</strong>: PostgreSQL with TypeORM</li>
+<li class=""><strong>Authentication</strong>: JWT + Argon2</li>
+<li class=""><strong>Documentation</strong>: Docusaurus</li>
+<li class=""><strong>Deployment</strong>: Docker + GitHub Actions</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-timeline">Development Timeline<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#development-timeline" class="hash-link" aria-label="Direct link to Development Timeline" title="Direct link to Development Timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-march---april-2026">Phase 1 (March - April 2026)<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#phase-1-march---april-2026" class="hash-link" aria-label="Direct link to Phase 1 (March - April 2026)" title="Direct link to Phase 1 (March - April 2026)" translate="no">​</a></h3>
+<ul>
+<li class="">✅ Project setup and architecture</li>
+<li class="">✅ User authentication module</li>
+<li class="">✅ Employee CRUD operations</li>
+<li class="">✅ API documentation</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-2-may---june-2026">Phase 2 (May - June 2026)<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#phase-2-may---june-2026" class="hash-link" aria-label="Direct link to Phase 2 (May - June 2026)" title="Direct link to Phase 2 (May - June 2026)" translate="no">​</a></h3>
+<ul>
+<li class="">Recruitment module</li>
+<li class="">Advanced search and filters</li>
+<li class="">Email notifications</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-3-july---august-2026">Phase 3 (July - August 2026)<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#phase-3-july---august-2026" class="hash-link" aria-label="Direct link to Phase 3 (July - August 2026)" title="Direct link to Phase 3 (July - August 2026)" translate="no">​</a></h3>
+<ul>
+<li class="">Analytics dashboard</li>
+<li class="">Reporting system</li>
+<li class="">Performance reviews</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="get-involved">Get Involved<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#get-involved" class="hash-link" aria-label="Direct link to Get Involved" title="Direct link to Get Involved" translate="no">​</a></h2>
+<p>We're building in the open! Follow our progress:</p>
+<ul>
+<li class=""><strong>GitHub</strong>: <a href="https://github.com/LocalhostLegends/backend" target="_blank" rel="noopener noreferrer" class="">LocalhostLegends/backend</a></li>
+<li class=""><strong>Documentation</strong>: <a class="" href="https://localhostlegends.github.io/documentation/docs/intro">Check our docs</a></li>
+<li class=""><strong>Issues</strong>: Report bugs or request features</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stay-connected">Stay Connected<a href="https://localhostlegends.github.io/documentation/blog/2026/03/20/project-launch#stay-connected" class="hash-link" aria-label="Direct link to Stay Connected" title="Direct link to Stay Connected" translate="no">​</a></h2>
+<p>This blog will be updated regularly with:</p>
+<ul>
+<li class="">Development updates</li>
+<li class="">New feature announcements</li>
+<li class="">Technical deep dives</li>
+<li class="">Release notes</li>
+</ul>
+<p>Let's build something great together! 🚀</p>
+<p><em>— HR Platform Team</em></p>]]></content>
+        <author>
+            <name>Development Team</name>
+            <uri>https://github.com/LocalhostLegends</uri>
+        </author>
+        <category label="announcement" term="announcement"/>
+        <category label="launch" term="launch"/>
+        <category label="hr-tech" term="hr-tech"/>
+    </entry>
+</feed>

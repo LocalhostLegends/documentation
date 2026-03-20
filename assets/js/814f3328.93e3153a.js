@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_docs=globalThis.webpackChunktemp_docs||[]).push([[472],{5513(t){t.exports=JSON.parse('{"title":"Latest posts","items":[{"title":"HR Platform: Project Launch","permalink":"/documentation/blog/2026/03/20/project-launch","unlisted":false,"date":"2026-03-20T00:00:00.000Z"}]}')}}]);

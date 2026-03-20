@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_docs=globalThis.webpackChunktemp_docs||[]).push([[767],{7248(e){e.exports=JSON.parse('{"authors":[{"name":"Development Team","title":"HR Platform Team","url":"https://github.com/LocalhostLegends","imageURL":"https://github.com/LocalhostLegends.png","key":"dev-team","page":null,"count":1}]}')}}]);

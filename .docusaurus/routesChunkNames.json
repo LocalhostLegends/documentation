@@ -1,0 +1,178 @@
+{
+  "/documentation/blog-6e3": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7ec99d69"
+      }
+    ],
+    "__props": "cb69dde1"
+  },
+  "/documentation/blog/2026/03/20/project-launch-0ec": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "76904afe"
+  },
+  "/documentation/blog/archive-f74": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "e03e475e"
+  },
+  "/documentation/blog/authors-6b6": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ec9a51e3"
+  },
+  "/documentation/blog/tags-c5d": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ed650d24"
+  },
+  "/documentation/blog/tags/announcement-971": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7ec99d69"
+      }
+    ],
+    "__props": "5a7969a1"
+  },
+  "/documentation/blog/tags/hr-tech-494": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7ec99d69"
+      }
+    ],
+    "__props": "19133331"
+  },
+  "/documentation/blog/tags/launch-55c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7ec99d69"
+      }
+    ],
+    "__props": "3121b54c"
+  },
+  "/documentation/markdown-page-1c7": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/documentation/docs-d9f": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/documentation/docs-10b": {
+    "__comp": "a7bd4aaa",
+    "__props": "f0e682a0"
+  },
+  "/documentation/docs-4e4": {
+    "__comp": "a94703ab"
+  },
+  "/documentation/docs/api/auth-177": {
+    "__comp": "17896441",
+    "content": "e5088ceb"
+  },
+  "/documentation/docs/api/users-247": {
+    "__comp": "17896441",
+    "content": "63b7fc37"
+  },
+  "/documentation/docs/architecture/database/candidates-ab3": {
+    "__comp": "17896441",
+    "content": "4c0bc536"
+  },
+  "/documentation/docs/architecture/database/employees-670": {
+    "__comp": "17896441",
+    "content": "c002ccfd"
+  },
+  "/documentation/docs/architecture/database/migrations-243": {
+    "__comp": "17896441",
+    "content": "b0eb2996"
+  },
+  "/documentation/docs/architecture/database/overview-d70": {
+    "__comp": "17896441",
+    "content": "257c8463"
+  },
+  "/documentation/docs/architecture/database/users-2dc": {
+    "__comp": "17896441",
+    "content": "7406468b"
+  },
+  "/documentation/docs/architecture/database/vacancies-f44": {
+    "__comp": "17896441",
+    "content": "382d4d88"
+  },
+  "/documentation/docs/architecture/overview-202": {
+    "__comp": "17896441",
+    "content": "0b1ac180"
+  },
+  "/documentation/docs/architecture/security-842": {
+    "__comp": "17896441",
+    "content": "e7b4922d"
+  },
+  "/documentation/docs/getting-started-3ef": {
+    "__comp": "17896441",
+    "content": "d589d3a7"
+  },
+  "/documentation/docs/guides/deployment-5a9": {
+    "__comp": "17896441",
+    "content": "caaf7770"
+  },
+  "/documentation/docs/guides/employee-guide-67a": {
+    "__comp": "17896441",
+    "content": "88efa03a"
+  },
+  "/documentation/docs/guides/hr-guide-fef": {
+    "__comp": "17896441",
+    "content": "614edbc0"
+  },
+  "/documentation/docs/intro-6d8": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/documentation/-4a1": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

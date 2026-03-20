@@ -1,0 +1,24 @@
+{
+  "id": "guides/employee-guide",
+  "title": "Employee Guide",
+  "description": "",
+  "source": "@site/docs/guides/employee-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/employee-guide",
+  "permalink": "/documentation/docs/guides/employee-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/LocalhostLegends/documentation/edit/main/docs/guides/employee-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "HR Guide",
+    "permalink": "/documentation/docs/guides/hr-guide"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/documentation/docs/guides/deployment"
+  }
+}

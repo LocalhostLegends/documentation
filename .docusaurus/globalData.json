@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/documentation/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/auth",
+              "path": "/documentation/docs/api/auth",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/users",
+              "path": "/documentation/docs/api/users",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/candidates",
+              "path": "/documentation/docs/architecture/database/candidates",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/employees",
+              "path": "/documentation/docs/architecture/database/employees",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/migrations",
+              "path": "/documentation/docs/architecture/database/migrations",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/overview",
+              "path": "/documentation/docs/architecture/database/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/users",
+              "path": "/documentation/docs/architecture/database/users",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/database/vacancies",
+              "path": "/documentation/docs/architecture/database/vacancies",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/overview",
+              "path": "/documentation/docs/architecture/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture/security",
+              "path": "/documentation/docs/architecture/security",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started",
+              "path": "/documentation/docs/getting-started",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/deployment",
+              "path": "/documentation/docs/guides/deployment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/employee-guide",
+              "path": "/documentation/docs/guides/employee-guide",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/hr-guide",
+              "path": "/documentation/docs/guides/hr-guide",
+              "sidebar": "docs"
+            },
+            {
+              "id": "intro",
+              "path": "/documentation/docs/intro",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/documentation/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

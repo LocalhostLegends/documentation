@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "HR Platform",
+  "description": "A modern web portal for automating HR management processes.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/documentation/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/LocalhostLegends/documentation/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/documentation/docs/getting-started"
+  }
+}

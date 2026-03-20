@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktemp_docs=globalThis.webpackChunktemp_docs||[]).push([[903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/documentation/blog","blogTitle":"HR Platform Blog","authorsListPath":"/documentation/blog/authors"}')}}]);

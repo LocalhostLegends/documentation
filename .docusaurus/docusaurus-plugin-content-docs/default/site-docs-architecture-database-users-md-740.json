@@ -1,0 +1,24 @@
+{
+  "id": "architecture/database/users",
+  "title": "Users Table",
+  "description": "Schema",
+  "source": "@site/docs/architecture/database/users.md",
+  "sourceDirName": "architecture/database",
+  "slug": "/architecture/database/users",
+  "permalink": "/documentation/docs/architecture/database/users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/LocalhostLegends/documentation/edit/main/docs/architecture/database/users.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Database Overview",
+    "permalink": "/documentation/docs/architecture/database/overview"
+  },
+  "next": {
+    "title": "Employees Table",
+    "permalink": "/documentation/docs/architecture/database/employees"
+  }
+}

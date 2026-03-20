@@ -1,0 +1,49 @@
+{
+  "permalink": "/documentation/blog/2026/03/20/project-launch",
+  "editUrl": "https://github.com/LocalhostLegends/documentation/edit/main/blog/2026-03-20-project-launch/index.md",
+  "source": "@site/blog/2026-03-20-project-launch/index.md",
+  "title": "HR Platform: Project Launch",
+  "description": "We're thrilled to announce the official launch of the HR Platform development project! 🎉",
+  "date": "2026-03-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "announcement",
+      "permalink": "/documentation/blog/tags/announcement"
+    },
+    {
+      "inline": true,
+      "label": "launch",
+      "permalink": "/documentation/blog/tags/launch"
+    },
+    {
+      "inline": true,
+      "label": "hr-tech",
+      "permalink": "/documentation/blog/tags/hr-tech"
+    }
+  ],
+  "readingTime": 1.12,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Development Team",
+      "title": "HR Platform Team",
+      "url": "https://github.com/LocalhostLegends",
+      "imageURL": "https://github.com/LocalhostLegends.png",
+      "key": "dev-team",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "HR Platform: Project Launch",
+    "authors": [
+      "dev-team"
+    ],
+    "tags": [
+      "announcement",
+      "launch",
+      "hr-tech"
+    ]
+  },
+  "unlisted": false
+}
