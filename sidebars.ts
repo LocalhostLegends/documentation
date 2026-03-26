@@ -44,6 +44,13 @@ const sidebars: SidebarsConfig = {
         'guides/deployment',
       ],
     },
+    {
+      type: 'category',
+      label: 'Development',
+      items: [
+        'development/git-workflow',
+      ],
+    },
   ],
 };
 
