@@ -32,6 +32,16 @@ const sidebars: SidebarsConfig = {
             'architecture/database/migrations',
           ],
         },
+        {
+          type: 'category',
+          label: 'RBAC System',
+          items: [
+            'architecture/rbac/roles-overview',
+            'architecture/rbac/permissions-system',
+            'architecture/rbac/role-permission-matrix',
+            'architecture/rbac/scope-vs-actions',
+          ],
+        },
         'architecture/security',
       ],
     },
