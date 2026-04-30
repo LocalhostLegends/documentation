@@ -13,6 +13,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'api/auth',
         'api/users',
+        'api/swagger-decorators',
       ],
     },
     {
@@ -20,6 +21,7 @@ const sidebars: SidebarsConfig = {
       label: 'Architecture',
       items: [
         'architecture/overview',
+        'architecture/exception-handling',
         {
           type: 'category',
           label: 'Database Schema',
