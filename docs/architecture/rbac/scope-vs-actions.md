@@ -1,47 +1,33 @@
-# Scope vs. Actions
+# Scope vs. Actions (RBAC vs. ABAC)
 
-Understanding the difference between **what** a user can do and **where** they can do it is critical to the system's security model.
+## 1. Scopes & Rules (Dynamic Layer)
 
-## 1. Actions (The "What")
+Scopes define the boundaries of an action. **SUPER_ADMIN** introduces the "Global" scope.
 
-Actions are specific operations defined in the system. They represent the "verb" in a permission check.
-*   `CREATE_USER`, `DELETE_USER`
-*   `EDIT_COMPANY_SETTINGS`
-*   `MANAGE_INVITES`
-*   `READ_FINANCIALS`
-
-## 2. Scopes (The "Where")
-
-Scopes define the boundary of an action. They represent the "adverb" or the "context" of the permission.
-
-| Scope | Description | Primary Users |
+| Scope | Description | Primary Roles |
 | :--- | :--- | :--- |
-| **Global** | Across the entire platform (all companies). | Super Admin |
-| **Company** | Anywhere within the user's organization. | Admin, HR |
-| **Department** | Restricted to the user's assigned department(s). | Manager |
-| **Personal** | Restricted only to the user's own data. | Employee |
+| **Global** | Full access across all companies and resources. | SUPER_ADMIN |
+| **Company** | Access limited to the user's own company. | ADMIN, HR |
+| **Department** | Access limited to the user's assigned department. | MANAGER |
+| **Self** | Access limited to the user's own profile. | EMPLOYEE |
 
-## 3. The Permission Formula
+## 2. Policy Overrides for SUPER_ADMIN
 
-In the `PermissionService`, a decision is made based on three factors:
-**Permission = Action + Scope + Hierarchy**
+In the code implementation, the `PermissionsService` often includes a bypass for the `SUPER_ADMIN` role:
 
-### Case Study: Editing a Profile
-Suppose a user wants to execute the `EDIT_USER` action on a target profile.
+```typescript
+if (user.role === UserRole.SUPER_ADMIN) {
+  return { effect: 'ALLOW' }; // Immediate bypass for all rules
+}
+```
 
-*   **Scenario A (Admin)**:
-    *   **Action**: `EDIT_USER` (Allowed).
-    *   **Scope**: `COMPANY` (Target is in same company).
-    *   **Hierarchy**: `TARGET_IS_LOWER` (Target is HR).
-    *   **Result**: ✅ **ALLOWED**.
+This means that rules like `CompanyBoundaryRule` (Priority 0) are skipped, allowing the Super Admin to monitor or fix data in any client organization.
 
-*   **Scenario B (HR)**:
-    *   **Action**: `EDIT_USER` (Allowed).
-    *   **Scope**: `COMPANY` (Target is in same company).
-    *   **Hierarchy**: `TARGET_IS_EQUAL` (Target is another HR).
-    *   **Result**: ❌ **DENIED** (Cannot manage equal roles).
+## 3. Hierarchy Rules
 
-*   **Scenario C (Manager)**:
-    *   **Action**: `EDIT_USER` (Allowed).
-    *   **Scope**: `DEPARTMENT` (Target is in a DIFFERENT department).
-    *   **Result**: ❌ **DENIED** (Out of scope).
+The system prevents "Horizontal" or "Vertical" modification by users of the same or lower roles, but **SUPER_ADMIN** sits outside this logic:
+
+- **HR** cannot edit **HR**.
+- **MANAGER** cannot edit **MANAGER**.
+- **ADMIN** cannot edit **ADMIN** (in some configurations).
+- **SUPER_ADMIN** can edit **EVERYONE**.
