@@ -101,11 +101,11 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/intro',
+              to: '/docs/backend/intro',
             },
             {
               label: 'API Reference',
-              to: '/docs/api/auth',
+              to: '/docs/backend/api/auth',
             },
           ],
         },
